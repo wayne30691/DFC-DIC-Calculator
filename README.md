@@ -1,4 +1,4 @@
-# 📦 DFC & DIC Calculator  
+#DFC & DIC Calculator  
 **Days of Forecast Coverage (DFC)** and **Days of Inventory Coverage (DIC)**
 
 ---
@@ -16,14 +16,14 @@ This model can be integrated into **Power BI** for interactive visualization or 
 
 ---
 
-## ⚙️ Formula
+##Formula
 
-### 🧮 DFC – Days of Forecast Coverage
+###DFC – Days of Forecast Coverage
 \[
 \text{DFC} = \frac{\text{Current Inventory (9L)}}{\text{Forecasted Daily Sales (9L/day)}}
 \]
 
-### 🧮 DIC – Days of Inventory Coverage
+###DIC – Days of Inventory Coverage
 \[
 \text{DIC} = \frac{\text{Current Inventory (9L)}}{\text{Actual Average Daily Depletion (9L/day)}}
 \]
@@ -32,7 +32,7 @@ Both values indicate how many days it would take for the inventory to reach zero
 
 ---
 
-## 🧰 Features
+##Features
 - Supports both **monthly** and **daily** granularity  
 - Works with data from **Snowflake**, **Excel**, or **Salesforce**  
 - Compatible with **Power BI DirectQuery** and **Python pandas** workflows  
@@ -40,7 +40,7 @@ Both values indicate how many days it would take for the inventory to reach zero
 
 ---
 
-## 📊 Example
+##Example
 
 | SKU | Current Inventory (9L) | Forecasted Daily Sales | DFC (Days) | Actual Daily Depletion | DIC (Days) |
 |-----|------------------------|------------------------|-------------|-----------------------|-------------|
@@ -53,7 +53,7 @@ Interpretation:
 
 ---
 
-## 🧩 Architecture
+##Architecture
 - **Data Source:** Snowflake / Excel / Salesforce  
 - **ETL:** Power Query / Python (pandas)  
 - **Calculation Layer:** DAX or Python  
@@ -61,7 +61,7 @@ Interpretation:
 
 ---
 
-## 🚀 Usage
+##Usage
 1. Connect data source in Power BI or Python.  
 2. Refresh inventory and sales/depletion data.  
 3. Run DFC / DIC calculation script.  
