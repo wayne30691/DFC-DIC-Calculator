@@ -3,7 +3,7 @@
 
 ---
 
-## 🧭 Overview
+##Overview
 This project estimates how long current inventory will last before reaching zero, based on either **forecasted demand** or **actual depletion**.  
 It supports both **forecast-based** and **consumption-based** perspectives for supply-chain and commercial planning.
 
@@ -72,7 +72,7 @@ Interpretation:
 
 ---
 
-## 🧮 Example Python Snippet
+##Example Python Snippet
 ```python
 df['DFC'] = df['Inventory_9L'] / (df['Forecast_9L'] / df['Days'])
 df['DIC'] = df['Inventory_9L'] / (df['Actual_Sales_9L'] / df['Days'])
